@@ -14,7 +14,7 @@ export class AppComponent {
   constructor( public TextService: TextServiceService ){}
 
   ngOnInit(): void {
-    console.log('hello world!');
+    console.log('hello world 2!');
     this.getText();
   }
 
